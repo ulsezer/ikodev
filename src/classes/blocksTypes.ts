@@ -1,0 +1,23 @@
+import { Block, BlockStrength } from './block';
+
+export const Havo = new Block(-1, false, false, BlockStrength.WEAK, 'Havo');
+export const Tosh = new Block(1, true, false, BlockStrength.STRONG, 'Tosh');
+export const Qum = new Block(2, true, false, BlockStrength.WEAK, 'Qum');
+export const FonQum = new Block(2, false, false, BlockStrength.WEAK, 'Fon Qum');
+export const Maysa = new Block(3, true, false, BlockStrength.WEAK, 'Maysa');
+export const Osimlik = new Block(4, true, false, BlockStrength.NORMAL, 'Osimlik');
+export const FonOsimlik = new Block(4, false, false, BlockStrength.NORMAL, 'Fon Osimlik');
+export const ToshPlitasi = new Block(5, true, false, BlockStrength.STRONG, 'Tosh Plitasi');
+export const Gisht = new Block(7, true, false, BlockStrength.STRONG, 'Gisht');
+export const FonGishtlar = new Block(7, false, false, BlockStrength.STRONG, 'Fon Gishtlari');
+export const Toshli Tosh = new Block(16, true, false, BlockStrength.STRONG, 'Toshli tosh');
+export const Nokia = new Block(17, true, false, BlockStrength.INDESTRUCTABLE, 'Nokia');
+export const YogochJurnal = new Block(20, true, false, BlockStrength.STRONG, 'Yogoch Jurnal');
+export const FonYogoch Jurnal = new Block(20, false, false, BlockStrength.STRONG, 'Fon Yogoch Jurnal');
+export const KitobJavon = new Block(35, true, false, BlockStrength.NORMAL, 'Kitob Javon');
+export const FonKitob Javon = new Block(35, false, false, BlockStrength.NORMAL, 'Fon Kitob Javon');
+export const MaqsadliBlok = new Block(41, false, false, BlockStrength.INDESTRUCTABLE, 'Maqsadli Blok');
+export const Oynak = new Block(49, true, false, BlockStrength.WEAK, 'Oynak');
+export const FonOynak = new Block(49, false, false, BlockStrength.WEAK, 'Fon Oynak');
+export const Barglar = new Block(52, false, false, BlockStrength.WEAK, 'Barglar');
+export const Narvon = new Block(83, false, true, BlockStrength.NORMAL, 'Narvon');
